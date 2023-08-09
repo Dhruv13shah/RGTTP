@@ -16,7 +16,7 @@ print("Apple "*42)
 
 # INSERT YOUR CODE HERE
 
-MyFavourite_Food = "Apple " 
+MyFavourite_Food = "Apple "
 
 print(MyFavourite_Food*42)
 

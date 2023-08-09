@@ -18,8 +18,7 @@ Shopping = ["Apple", "Milk", "Bread", "Chicken", "Pasta"]
 #else:
 #    print("orange is not in shopping list")
 
-
-    
+   
      
 # 3. Write a function "in_shopping_list" that takes a item such as
 #    orange, and returns True or False.

@@ -23,3 +23,6 @@ m: int = 128 >> 1
 n: str = bin(128)
 o: list = [m, l, k, n]
 p: int = len(o)
+
+number = 42.345
+print("The answere is {0:@^+020,.6%}!".format(number))

@@ -22,3 +22,17 @@
 #    - False
 
 # INSERT CODE HERE
+class ShoppingList(object):
+  def __init__(self) -> None:
+      self.shopping_list: list[str] = ['apples', 'milk', 'bread', 'carrot', 'pasta']
+
+  def in_list(self, item):
+    if item in self.shopping_list:
+      return f"{item} is in shopping list"
+    else:
+      return f"{item} is not in shopping list" 
+
+monday: ShoppingList = ShoppingList()
+print(monday.shopping_list)      
+print(monday.in_list('apples'))
+print(monday.in_list('banana'))
